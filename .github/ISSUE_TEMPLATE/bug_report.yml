@@ -31,7 +31,6 @@ body:
         Paste the full relevant logs here.
         You may also drag and drop log files directly into this field.
         The more complete the logs, the easier it is for us to diagnose the issue.
-      render: shell
       placeholder: |
         Paste logs here, or drag and drop log files...
     validations:
