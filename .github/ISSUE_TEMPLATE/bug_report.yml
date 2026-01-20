@@ -11,13 +11,19 @@ body:
       label: "Add-on Name"
       description: "Which add-on is affected?"
       options:
+        - "-- Please select an add-on --"
+        - "eWeLink Smart Home"
         - "eWeLink-Remote Gateway"
-        - "hassio-ihost-ewelink-remote"
-        - "hassio-ihost-hardware-control"
-        - "hassio-ihost-zigbee2mqtt"
-        - "hassio-ihost-matter-server"
-        - "hassio-ihost-node-red"
-        - "Other / Not sure"
+        - "SONOFF Dongle Flasher"
+        - "iHost Hardware Control"
+        - "Matter Bridge for iHost"
+        - "Silicon Labs Multiprotocol"
+        - "OpenThread Border Router"
+        - "Node-RED"
+        - "ESPHome Device Builder"
+        - "Matter Server"
+        - "Advanced SSH & Web Terminal"
+        - "Zigbee2MQTT"
     validations:
       required: true
 
