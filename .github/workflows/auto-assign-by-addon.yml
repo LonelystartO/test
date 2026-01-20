@@ -69,12 +69,12 @@ jobs:
               "iHost Hardware Control": ["MoSuXiao"],
               "Matter Bridge for iHost": ["MoSuXiao"],
               "Silicon Labs Multiprotocol": ["MoSuXiao"],
-              "OpenThread Border Router": ["Joey"],
+              "OpenThread Border Router": ["LonelystartO"],
               "Node-RED": ["MoSuXiao"],
               "ESPHome Device Builder": ["MoSuXiao"],
-              "Matter Server": ["Joey"],
-              "Advanced SSH & Web Terminal": ["Joey"],
-              "Zigbee2MQTT": ["Joey"],
+              "Matter Server": ["LonelystartO"],
+              "Advanced SSH & Web Terminal": ["LonelystartO"],
+              "Zigbee2MQTT": ["LonelystartO"],
             };
 
             const assignees = mapping[addon];
