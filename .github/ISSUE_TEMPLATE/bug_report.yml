@@ -5,14 +5,22 @@ labels:
   - bug
   - needs-triage
 body:
-  - type: input
+  - type: dropdown
     id: addon_name
     attributes:
       label: "Add-on Name"
-      description: "Which add-on is affected? (e.g., eWeLink-Remote Gateway or hassio-ihost-ewelink-remote)"
-      placeholder: "eWeLink-Remote Gateway"
+      description: "Which add-on is affected?"
+      options:
+        - "eWeLink-Remote Gateway"
+        - "hassio-ihost-ewelink-remote"
+        - "hassio-ihost-hardware-control"
+        - "hassio-ihost-zigbee2mqtt"
+        - "hassio-ihost-matter-server"
+        - "hassio-ihost-node-red"
+        - "Other / Not sure"
     validations:
       required: true
+
 
   - type: textarea
     id: problem_description
